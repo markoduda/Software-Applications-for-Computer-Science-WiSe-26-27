@@ -2,7 +2,11 @@
 All slides and tutorials for the seminar "Software Applications for Computer Science" of HS Fresenius in winter semester 26/27.
 
 Links from Prof. Huber from the first two weeks
+
 https://hubchev.github.io/
+
 https://hubchev.github.io/ds/90_quarto.html
+
 https://github.com/hubchev/temp_apa_en
+
 https://hubchev.github.io/fivecents/fivecents.html)
