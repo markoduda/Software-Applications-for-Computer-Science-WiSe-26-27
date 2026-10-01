@@ -100,6 +100,7 @@ Every command produces **output** (text on your screen). The pipe `|` takes the 
 Think of an assembly line: each station does one small job and passes the result to the next station.
 
 ```
+# Do not copy this command, this is just for illustration
 cat names.txt  |  sort  |  uniq
  (show file)    (order)   (remove duplicates)
 ```
