@@ -212,10 +212,6 @@ How to read a line like `-rw-r--r-- 1 fresenius fresenius 60 Oct 2 10:00 names.t
 | `names.txt` | file name |
 
 
-`Permission denied`. This is how Unix protects users from each other.
-
-> **macOS users:** this file does not exist on your system. Use `cat /etc/master.passwd` instead and `sudo cat /etc/master.passwd` below.
-
 ### `sudo`: borrow admin rights for one command
 
 Every Unix system has a special all-powerful user called **root** (the administrator). Normal users are not allowed to change the system or read other people's private files.
@@ -229,14 +225,6 @@ sudo whoami
 ```
 
 Your password is requested. **Nothing appears while you type it, that is normal.** The answer is `root`.
-
-Now read the protected file:
-
-```
-sudo cat /etc/shadow
-```
-
-This time it works.
 
 > **Careful:** with `sudo` there is no safety net. Never run `sudo` commands you copied from the internet without understanding them. For example, `sudo rm` can delete system files.
 
