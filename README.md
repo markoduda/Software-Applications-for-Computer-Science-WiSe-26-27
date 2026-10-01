@@ -12,3 +12,8 @@ https://github.com/hubchev/temp_apa_en
 https://hubchev.github.io/fivecents/fivecents.html)
 
 http://178.104.13.202:5000/
+
+
+My own slides start therefore with week 3 as you can see here:
+
+`week_3_introduction.pdf`
