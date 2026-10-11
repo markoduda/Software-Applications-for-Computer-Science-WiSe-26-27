@@ -529,15 +529,15 @@ https://yourusername.github.io/about.html
 2. **Copy a photo into it.** For example, a photo from your Downloads folder:
 
    ```bash
-   cp ~/Downloads/me.jpg images/me.jpg
+   cp ~/Downloads/me.jpg images/example_image.jpg
    ```
 
    (`cp` copies a file: `cp source destination`. On Mac and Linux it is the same command. On Mac, your folder might be called `Downloads` as well; use `ls ~/Downloads` to see the file names.)
 
-3. **Use the image in your HTML.** Ask Claude: "Please add the picture `images/me.jpg` to my About section, round it, and make it responsive." The HTML for an image looks like this:
+3. **Use the image in your HTML.** Ask Claude: "Please add the picture `images/example_image.jpg` to my About section, round it, and make it responsive." The HTML for an image looks like this:
 
    ```html
-   <img src="images/me.jpg" alt="A photo of me at the beach">
+   <img src="images/example_image.jpg" alt="This photo is an example">
    ```
 
    The `alt` text describes the picture for people who cannot see it (screen readers) and appears when the image fails to load.
@@ -546,24 +546,16 @@ https://yourusername.github.io/about.html
 
    ```bash
    git add .
-   git commit -m "Add profile photo"
+   git commit -m "Add photo"
    git push
    ```
 
 **Rules for images:**
 
-- Use **lowercase file names without spaces**: `me.jpg`, `trip-italy.jpg`. Avoid `My Photo (1).JPG`.
+- Use **lowercase file names without spaces**: `example_image.jpg`, `image_3.jpg`. Avoid `My Photo (1).JPG`.
 - GitHub Pages is **case-sensitive**: `Photo.jpg` and `photo.jpg` are different files. If an image works on your computer but not online, this is the most common reason.
 - Keep images **small** (ideally under 500 KB). Phone photos can be 5 MB or more, which makes your website slow. Ask Claude how to shrink them, or use a free tool like [squoosh.app](https://squoosh.app).
 - Only publish photos that you are allowed to publish, and think about the privacy of people in them.
-
-## 2.4 Ideas for more
-
-- A **projects page** where you list things you build during your studies
-- A **contact section** (be careful with what personal data you publish)
-- A **blog page** where you write about what you learn
-- Your own **domain name** (for example `yourname.com`), which is possible with GitHub Pages but not free
-- Ask Claude: "What could I add to make my website more interesting for a future employer?"
 
 ---
 
