@@ -529,7 +529,7 @@ https://yourusername.github.io/about.html
 2. **Copy a photo into it.** For example, a photo from your Downloads folder:
 
    ```bash
-   cp ~/Downloads/me.jpg images/example_image.jpg
+   cp ~/Downloads/example_image.jpg images/example_image.jpg
    ```
 
    (`cp` copies a file: `cp source destination`. On Mac and Linux it is the same command. On Mac, your folder might be called `Downloads` as well; use `ls ~/Downloads` to see the file names.)
@@ -569,7 +569,7 @@ https://yourusername.github.io/about.html
 | `rejected ... fetch first` when pushing | Your online repository has newer content. Run `git pull`, then `git push`. |
 | Website shows **404** | Wait 2 minutes. Check that the repository name is exactly `yourusername.github.io` (lowercase), that it is **Public**, that the file is named `index.html`, and that Pages is set to `main` / `(root)` under Settings → Pages. |
 | Changes do not show up online | Did you run `git push`? Check the **Actions** tab for a green check mark, then do a hard refresh (`Cmd/Ctrl + Shift + R`). |
-| Image does not show | Check the path (`images/me.jpg`), upper/lower case in the file name, and that you ran `git add .` so the image was committed. |
+| Image does not show | Check the path (`images/example_image.jpg`), upper/lower case in the file name, and that you ran `git add .` so the image was committed. |
 | Terminal shows `command not found: git` | Git is not installed or the terminal was not restarted. Repeat Step 2, close the terminal, and open a new one. |
 | nano looks confusing | Shortcuts are listed at the bottom of the screen (`^` means `Ctrl`). Save with `Ctrl + O`, Enter, and quit with `Ctrl + X`. |
 | You made a mistake and are stuck | Run `git status` and read the output carefully; Git usually tells you what to do. Or copy the error message to Claude and ask for help. |
