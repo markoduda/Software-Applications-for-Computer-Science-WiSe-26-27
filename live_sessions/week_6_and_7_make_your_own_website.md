@@ -72,9 +72,6 @@ You now have an (almost empty) project online. Next, we get it onto your own com
 
 Open your terminal.
 
-- **Mac:** press `Cmd + Space`, type `Terminal`, press Enter.
-- **Linux (Ubuntu):** press `Ctrl + Alt + T` (or search for "Terminal" in your applications).
-
 First, check whether Git is already installed:
 
 ```bash
